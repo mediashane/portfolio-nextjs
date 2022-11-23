@@ -1,9 +1,9 @@
 import Head from "next/head";
 import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import AppProps from "next/app";
+import { AppProps } from "next/app";
 
-function App({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     return (
         <>
             <Head>
@@ -30,4 +30,4 @@ function App({ Component, pageProps }: AppProps) {
     );
 }
 
-export default App;
+export default MyApp;

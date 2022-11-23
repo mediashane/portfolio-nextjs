@@ -1,7 +1,7 @@
 import Head from "next/head";
 import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { AppProps } from "next/app";
+import type { AppProps } from "next/app";
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     return (

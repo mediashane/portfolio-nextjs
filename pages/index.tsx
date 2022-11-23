@@ -1,4 +1,5 @@
-import NextPage from "next";
+import type { NextPage } from "next";
+import React from "react";
 
 import { Layout } from "../src/components/layout/Layout";
 import { Hero } from "../src/components/hero/Hero";

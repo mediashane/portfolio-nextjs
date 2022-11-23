@@ -298,7 +298,7 @@ export const workProjects = [
         img: "/media/images/mediaShanePortfolio.jpg",
         tags: ["React.js", "Next.js", "Framer Motion", "Typescript"],
         cta: "View repository",
-        url: "http://mediashane.com/",
+        url: "https://github.com/mediashane/portfolio-nextjs",
         left: false,
     },
 ];

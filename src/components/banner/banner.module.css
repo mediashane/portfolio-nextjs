@@ -52,3 +52,11 @@
     background-color: #000;
     color: #808000;
 }
+
+.banner_content {
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
+    padding: 5rem 0;
+    z-index: 1;
+}

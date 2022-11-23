@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 export const Banner = () => {
     return (
         <div className={style.banner}>
-            <main className="content">
+            <main className="banner_content">
                 <Row>
                     <Col md={6}>
                         <h1 className={style.title + " mb-0"}>

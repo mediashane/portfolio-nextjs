@@ -1,0 +1,32 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding-bottom: 3rem;
+}
+
+.projects_header_wrapper {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.title {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.stats_text {
+    font-weight: 400;
+    color: #fff;
+}
+
+.highlight {
+    font-weight: 700;
+}
+
+.description {
+    color: #fff;
+    opacity: 0.8;
+}

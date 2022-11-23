@@ -1,0 +1,177 @@
+.description {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.btn_naked {
+    border: 0;
+    background-color: transparent;
+    color: #808000;
+    border-bottom: solid #808000 2px;
+    padding: 5px 0px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn_naked:hover {
+    color: #9c9c02;
+    border-bottom: solid #9c9c02 2px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.list_item_highlight {
+    margin-top: 5px;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 1);
+    padding: 0.3rem 1rem;
+    border-radius: 8px;
+    text-shadow: 2px 2px 9px rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: transform 0.2s;
+    text-decoration: none;
+}
+
+.list_item_highlight:hover {
+    color: rgba(0, 0, 0, 1);
+    transform: translateY(-4px);
+}
+
+.list_item {
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0.3rem 1rem;
+    border-radius: 8px;
+    text-shadow: 2px 2px 9px rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #808000;
+    margin-bottom: 1rem;
+}
+
+.feature_img_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.feature_img {
+    height: 100%;
+    width: 90%;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    border-radius: 20px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+    .feature_img {
+        width: 100%;
+    }
+}
+
+
+.feature_img:after {
+    content: "";
+    background-image: url("../../../public/media/images/noiseTexture.png");
+    height: 300%;
+    width: 300%;
+    position: fixed;
+    opacity: 0.1;
+    transition: 0.3s;
+    animation: animateGrain 8s steps(10) infinite;
+}
+
+@media only screen and (max-width: 767px) {
+    .feature_img_wrapper {
+        min-height: 350px;
+    }
+}
+
+@keyframes animateGrain {
+
+    0%,
+    100% {
+        transform: translate(0, 0)
+    }
+
+    10% {
+        transform: translate(-5%, -10%)
+    }
+
+    20% {
+        transform: translate(-15%, -20%)
+    }
+
+    30% {
+        transform: translate(-5%, -10%)
+    }
+
+    40% {
+        transform: translate(-15%, -20%)
+    }
+
+    50% {
+        transform: translate(-5%, -10%)
+    }
+
+    60% {
+        transform: translate(-15%, -20%)
+    }
+
+    70% {
+        transform: translate(-5%, -10%)
+    }
+
+    80% {
+        transform: translate(-15%, -20%)
+    }
+
+    90% {
+        transform: translate(-5%, -10%)
+    }
+
+    100% {
+        transform: translate(-15%, -20%)
+    }
+}
+
+.project_wrapper {
+    min-height: 350px;
+    margin-bottom: 7rem;
+}
+
+.project_wrapper:last-child {
+    margin-bottom: 2rem;
+}
+
+.project_wrapper:hover .feature_img {
+    filter: grayscale(0%);
+}
+
+.project_wrapper:hover .feature_img:after {
+    opacity: 0;
+}

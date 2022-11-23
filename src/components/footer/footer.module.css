@@ -1,0 +1,22 @@
+.footer {
+    background-color: #000;
+    z-index: 9999;
+}
+
+.footer_text {
+    margin-bottom: 0;
+    color: #ffff;
+    opacity: 0.5;
+}
+
+.highlight {
+    color: #808000;
+}
+
+.footer_content {
+    width: 100%;
+    padding: 2rem 2rem;
+    z-index: 9999;
+}
+
+@media only screen and (max-width: 768px) {}

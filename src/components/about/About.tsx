@@ -31,7 +31,7 @@ export const About = () => {
                             <Col md={6} sm={12} className="mt-lg-0 mt-4">
                                 <h2 className={style.subtitle}>Shane Smith</h2>
                                 <p className={style.description}>
-                                    Originally from Portland, Oregon, I&apos;m a senior software and fullstack web developer capable of leading teams, working alone, or fitting in. Years of agency and freelance experience have conditioned me to adapt to and work with just about any tech, team or timeline.
+                                    Originally from Portland, Oregon, I&apos;m a senior software and fullstack web developer capable of leading teams, working independently, or fitting in. Years of agency and freelance experience have conditioned me to adapt to and work with just about any tech, team or timeline.
                                 </p>
                                 <p className={style.description}>
                                     Start-ups, legacy platforms, greenfield applications - I&apos;ve done it all. While I can readily produce and succeed in just about any circumstance, I truly thrive in creative and friendly environments that give space for experimentation, independent thought and supportive collaboration.

@@ -8,7 +8,7 @@ export const Banner = () => {
     return (
         <div className={style.banner}>
             <main className="banner_content">
-                <Row>
+                <Row style={{ maxWidth: "1280px" }}>
                     <Col md={6}>
                         <h1 className={style.title + " mb-0"}>
                             Driven by creativity and humanitarian values.

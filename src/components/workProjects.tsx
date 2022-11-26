@@ -294,7 +294,7 @@ export const workProjects = [
         description:
             "A personal portfolio that shows off my work and talents.",
         role:
-            "Everything made by yours truly. I invite you to view the repository and take a look under the hood yourself.",
+            "Made by yours truly. I invite you to view the repository and take a look under the hood yourself.",
         img: "/media/images/mediaShanePortfolio.jpg",
         tags: ["React.js", "Next.js", "Framer Motion", "Typescript"],
         cta: "View repository",

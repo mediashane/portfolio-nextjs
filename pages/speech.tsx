@@ -6,21 +6,19 @@ import { Layout } from "../src/components/layout/Layout";
 import { Projects } from "../src/components/projects/Projects";
 import { PageTransition } from "../src/components/pagetransition/PageTransition";
 
-const Home: NextPage = () => {
+const Speech: NextPage = () => {
 
     return (
-        <>
-            <Layout>
-                <PageTransition>
-                    <Link passHref href="https://docs.google.com/presentation/d/1FSQ6CBMgLJt4U6HIGLBC3ycSS8aFCIHZqgl1yBjdPUQ/edit?usp=sharing">
-                        <a>
-                            Speech
-                        </a>
-                    </Link>
-                </PageTransition>
-            </Layout>
-        </>
+        <div>
+            <a 
+            href="https://docs.google.com/presentation/d/1FSQ6CBMgLJt4U6HIGLBC3ycSS8aFCIHZqgl1yBjdPUQ/edit?usp=sharing" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+            Speech
+            </a>
+        </div>
     );
 };
 
-export default Home;
+export default Speech;

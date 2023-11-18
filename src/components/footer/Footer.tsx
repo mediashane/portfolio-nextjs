@@ -14,7 +14,7 @@ export const Footer = () => {
                         className="text-center text-sm-start order-3 order-lg-0 order-md-0 d-flex justify-content-center justify-content-lg-start justify-content-md-start"
                     >
                         <p className={style.footer_text + " small"}>
-                            © 2022 Shane Smith
+                            © 2023 Shane Smith
                         </p>
                     </Col>
                     <Col lg={2} md={2} className="d-flex justify-content-center">

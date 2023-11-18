@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000;
+    background-color: #222;
     overflow: hidden;
 }
 
@@ -81,7 +81,7 @@
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     transition: 0.3s;
 }
 
@@ -104,9 +104,9 @@
     height: 100%;
 }
 
-.hero_wrapper:hover .hero_img {
+/* .hero_wrapper:hover .hero_img {
     filter: grayscale(0%);
-}
+} */
 
 .hero_img_wrapper {
     display: flex;

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background-color: #222;
     position: relative;
 }
 
@@ -37,7 +37,7 @@
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     transition: 0.3s;
 }
 
@@ -60,9 +60,9 @@
     height: 100%;
 }
 
-.about_wrapper:hover .profile_pic {
+/* .about_wrapper:hover .profile_pic {
     filter: grayscale(0%);
-}
+} */
 
 .list {
     column-count: 2;

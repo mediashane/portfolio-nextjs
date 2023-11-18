@@ -81,7 +81,7 @@
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     border-radius: 20px;
     transition: 0.3s;
     overflow: hidden;
@@ -94,7 +94,7 @@
 }
 
 
-.feature_img:after {
+/* .feature_img:after {
     content: "";
     background-image: url("../../../public/media/images/noiseTexture.png");
     height: 300%;
@@ -103,7 +103,7 @@
     opacity: 0.1;
     transition: 0.3s;
     animation: animateGrain 8s steps(10) infinite;
-}
+} */
 
 @keyframes animateGrain {
 
@@ -162,9 +162,9 @@
     margin-bottom: 2rem;
 }
 
-.project_wrapper:hover .feature_img {
+/* .project_wrapper:hover .feature_img {
     filter: grayscale(0%);
-}
+} */
 
 .project_wrapper:hover .feature_img:after {
     opacity: 0;

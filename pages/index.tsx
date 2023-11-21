@@ -13,12 +13,12 @@ const Home: NextPage = () => {
     return (
         <>
             <Layout>
-                <PageTransition>
+                {/* <PageTransition> */}
                     <Hero />
                     <About />
                     <Banner />
                     <Contact />
-                </PageTransition>
+                {/* </PageTransition> */}
             </Layout>
         </>
     );

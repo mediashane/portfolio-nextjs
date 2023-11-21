@@ -10,9 +10,9 @@ const Home: NextPage = () => {
     return (
         <>
             <Layout>
-                <PageTransition>
+                {/* <PageTransition> */}
                     <Projects />
-                </PageTransition>
+                {/* </PageTransition> */}
             </Layout>
         </>
     );

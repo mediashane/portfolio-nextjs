@@ -151,7 +151,7 @@ export const Appbar = () => {
                             <MobileNavLink destination="contact" />
                         </div>
                         <a
-                            href="/media/pdfs/ShaneSmithResume2022.pdf"
+                            href="/media/pdfs/ShaneSmithResume2023.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={style.mobile_navigation_btn}

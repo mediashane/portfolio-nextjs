@@ -65,7 +65,7 @@ export const About = () => {
 
                                 <div className="d-flex align-items-center mt-4 flex-wrap">
                                     <a
-                                        href="/media/pdfs/ShaneSmithResume2022.pdf"
+                                        href="/media/pdfs/ShaneSmithResume2023.pdf"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className={style.about_link + " mx-3 ms-0 small"}

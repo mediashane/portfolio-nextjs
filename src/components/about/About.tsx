@@ -10,6 +10,7 @@ import {
     SiReact,
     SiNodedotjs,
     SiNextdotjs,
+    SiPostgresql
 } from "react-icons/si";
 
 export const About = () => {
@@ -47,13 +48,13 @@ export const About = () => {
                                         <SiJavascript fontSize={18} className="ms-0 mx-1" /> JavaScript, TypeScript, HTML, CSS
                                     </li>
                                     <li className={style.list_item}>
-                                        <SiTypescript fontSize={18} className="ms-0 mx-1" /> React, React Native, Vue, Electron
+                                        <SiReact fontSize={18} className="ms-0 mx-1" /> React, React Native, Vue, Electron
                                     </li>
                                     <li className={style.list_item}>
-                                        <SiReact fontSize={18} className="ms-0 mx-1" /> Node.js, Express.js, Passport.js
+                                        <SiNodedotjs fontSize={18} className="ms-0 mx-1" /> Node.js, Express.js, Passport.js
                                     </li>
                                     <li className={style.list_item}>
-                                        <SiNodedotjs fontSize={18} className="ms-0 mx-1" /> PostgresSQL, NoSQL, SQL
+                                        <SiPostgresql fontSize={18} className="ms-0 mx-1" /> PostgresSQL, NoSQL, SQL
                                     </li>
                                     <li className={style.list_item}>
                                         <SiNextdotjs fontSize={18} className="ms-0 mx-1" /> Next.js, Vercel, Supabase, Firebase

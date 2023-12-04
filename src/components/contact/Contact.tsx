@@ -70,7 +70,7 @@ export const Contact = () => {
                                 <div>
                                     <div className="d-flex align-items-center mb-3">
                                         <FaHome fontSize={28} className={style.contact_icon} />
-                                        <p className={style.contact_info}>Lisbon, Portugal</p>
+                                        <p className={style.contact_info}>Portland, Oregon and Lisbon, Portugal</p>
                                     </div>
 
                                     <div className="d-flex align-items-center mb-3">

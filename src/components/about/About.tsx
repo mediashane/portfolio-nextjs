@@ -44,22 +44,22 @@ export const About = () => {
                                 </p>
                                 <ul className={style.list}>
                                     <li className={style.list_item}>
-                                        <SiJavascript fontSize={18} className="ms-0 mx-1" /> JavaScript (ES6+)
+                                        <SiJavascript fontSize={18} className="ms-0 mx-1" /> JavaScript, TypeScript, HTML, CSS
                                     </li>
                                     <li className={style.list_item}>
-                                        <SiTypescript fontSize={18} className="ms-0 mx-1" /> Typescript
+                                        <SiTypescript fontSize={18} className="ms-0 mx-1" /> React, React Native, Vue, Electron
                                     </li>
                                     <li className={style.list_item}>
-                                        <SiReact fontSize={18} className="ms-0 mx-1" /> React / React Native
+                                        <SiReact fontSize={18} className="ms-0 mx-1" /> Node.js, Express.js, Passport.js
                                     </li>
                                     <li className={style.list_item}>
-                                        <SiNodedotjs fontSize={18} className="ms-0 mx-1" /> Node.js
+                                        <SiNodedotjs fontSize={18} className="ms-0 mx-1" /> PostgresSQL, NoSQL, SQL
                                     </li>
                                     <li className={style.list_item}>
-                                        <SiNextdotjs fontSize={18} className="ms-0 mx-1" /> Next.js
+                                        <SiNextdotjs fontSize={18} className="ms-0 mx-1" /> Next.js, Vercel, Supabase, Firebase
                                     </li>
                                     <li className={style.list_item}>
-                                        <SiGraphql fontSize={18} className="ms-0 mx-1" /> GraphQL
+                                        <SiGraphql fontSize={18} className="ms-0 mx-1" /> GraphQL, REST
                                     </li>
                                 </ul>
 

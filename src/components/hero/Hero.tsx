@@ -16,7 +16,7 @@ export const Hero = () => {
                         <Col md={6} className="d-flex align-items-center">
                             <FadeIn delay={100}>
                                 <p className={style.highlight + " mb-0 fw-bold"}>
-                                    Software Developer
+                                Senior Fullstack Software Engineer
                                 </p>
                                 <h1 className={style.title}>
                                     Hi there, I&apos;m Shane

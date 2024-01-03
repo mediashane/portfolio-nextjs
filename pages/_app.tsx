@@ -12,14 +12,14 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta
                     name="description"
-                    content="Software Developer, Shane Smith. I'm an experienced engineer who's shipped projects and products for some of the biggest brands and companies in the world. 
+                    content="Senior Fullstack Software Engineer, Shane Smith. I'm an experienced engineer who's shipped projects and products for some of the biggest brands and companies in the world. 
             Web, mobile and desktop - I work in all environments with creativity, flexibility and reliability."
                 />
 
                 <meta property="og:title" content="Shane Smith" />
                 <meta
                     property="og:description"
-                    content="Software Developer, Shane Smith. I'm an experienced engineer who's shipped projects and products for some of the biggest brands and companies in the world. 
+                    content="Senior Fullstack Software Engineer, Shane Smith. I'm an experienced engineer who's shipped projects and products for some of the biggest brands and companies in the world. 
             Web, mobile and desktop - I work in all environments with creativity, flexibility and reliability."
                 />
                 <meta property="og:url" content="https://mediashane.com/" />

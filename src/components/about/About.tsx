@@ -5,12 +5,18 @@ import { Row, Col } from "react-bootstrap";
 import { RiExternalLinkFill, RiGithubFill } from "react-icons/ri";
 import {
     SiJavascript,
-    SiTypescript,
     SiGraphql,
     SiReact,
     SiNodedotjs,
     SiNextdotjs,
-    SiPostgresql
+    SiPostgresql,
+    SiTailwindcss,
+    SiSass,
+    SiSupabase,
+    SiGooglechrome,
+    SiGooglecloud,
+    SiGit,
+    SiAwesomelists
 } from "react-icons/si";
 
 export const About = () => {
@@ -45,22 +51,46 @@ export const About = () => {
                                 </p>
                                 <ul className={style.list}>
                                     <li className={style.list_item}>
-                                        <SiJavascript fontSize={18} className="ms-0 mx-1" /> JavaScript, TypeScript, HTML, CSS
+                                        <SiJavascript fontSize={18} className="ms-0 mx-1" /> JavaScript (ES6+), TypeScript, HTML5, CSS3
                                     </li>
                                     <li className={style.list_item}>
-                                        <SiReact fontSize={18} className="ms-0 mx-1" /> React, React Native, Vue, Electron
+                                        <SiReact fontSize={18} className="ms-0 mx-1" /> React.js, React Native, Vue.js, Electron.js
                                     </li>
                                     <li className={style.list_item}>
-                                        <SiNodedotjs fontSize={18} className="ms-0 mx-1" /> Node.js, Express.js, Passport.js
+                                        <SiNextdotjs fontSize={18} className="ms-0 mx-1" /> Next.js, Vercel, Vite, Webpack
                                     </li>
                                     <li className={style.list_item}>
-                                        <SiPostgresql fontSize={18} className="ms-0 mx-1" /> PostgresSQL, NoSQL, SQL
+                                        <SiReact fontSize={18} className="ms-0 mx-1" /> Redux, Zustand, Context API
                                     </li>
                                     <li className={style.list_item}>
-                                        <SiNextdotjs fontSize={18} className="ms-0 mx-1" /> Next.js, Vercel, Supabase, Firebase
+                                        <SiNodedotjs fontSize={18} className="ms-0 mx-1" /> Node.js, Express.js, Docker
                                     </li>
                                     <li className={style.list_item}>
-                                        <SiGraphql fontSize={18} className="ms-0 mx-1" /> GraphQL, REST
+                                        <SiTailwindcss fontSize={18} className="ms-0 mx-1" /> Tailwind, Radix, Material UI, Responsive Design
+                                    </li>
+                                    <li className={style.list_item}>
+                                        <SiSass fontSize={18} className="ms-0 mx-1" /> SASS, LESS, SCSS
+                                    </li>
+                                    <li className={style.list_item}>
+                                        <SiPostgresql fontSize={18} className="ms-0 mx-1" /> PostgresSQL, NoSQL, SQL, MySQL,SQLite, MongoDB
+                                    </li>
+                                    <li className={style.list_item}>
+                                        <SiSupabase fontSize={18} className="ms-0 mx-1" /> Supabase, Firebase, Serverless Architecture
+                                    </li>
+                                    <li className={style.list_item}>
+                                        <SiGooglechrome fontSize={18} className="ms-0 mx-1" /> Chrome browser extension development
+                                    </li>
+                                    <li className={style.list_item}>
+                                        <SiGooglecloud fontSize={18} className="ms-0 mx-1" /> Google Cloud, AWS
+                                    </li>
+                                    <li className={style.list_item}>
+                                        <SiGit fontSize={18} className="ms-0 mx-1" /> Git, Github, Gitlab
+                                    </li>
+                                    <li className={style.list_item}>
+                                        <SiGraphql fontSize={18} className="ms-0 mx-1" /> GraphQL, RESTful APIs
+                                    </li>
+                                    <li className={style.list_item}>
+                                        <SiAwesomelists fontSize={18} className="ms-0 mx-1" /> Agile and Scrum Methodologies
                                     </li>
                                 </ul>
 
